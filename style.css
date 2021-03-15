@@ -666,6 +666,10 @@ header {
 	font-family: 'Montserrat', sans-serif;
 }
 
+.form input:required:valid {
+	border-color: #81BE1C;
+}
+
 .form input::placeholder {
 	color: #F6EDE9;
 }
